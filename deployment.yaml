@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: chatapp
-        image: 817735295857.dkr.ecr.us-east-1.amazonaws.com/repo:latest
+        image: 176517965207.dkr.ecr.us-east-1.amazonaws.com/repo:latest
         ports:
         - containerPort: 80
