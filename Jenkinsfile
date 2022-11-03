@@ -45,8 +45,8 @@ pipeline {
                         sh('#!/bin/sh -e\n' + "${login}") // hide logging
                             sh '''
                             aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 817735295857.dkr.ecr.us-east-1.amazonaws.com
-                            docker tag repo:latest 817735295857.dkr.ecr.us-east-1.amazonaws.com/repo:latest
-                            docker push 817735295857.dkr.ecr.us-east-1.amazonaws.com/repo:latest
+                            docker tag repo:latest 176517965207.dkr.ecr.us-east-1.amazonaws.com/repo:latest
+                            docker push 176517965207.dkr.ecr.us-east-1.amazonaws.com/repo:latest
                             '''
                     }
                 }
